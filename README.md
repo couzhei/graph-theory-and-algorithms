@@ -72,6 +72,8 @@ Understanding this history reveals that:
 3. Complexity theory tells us when to stop searching for perfect solutions
 4. The formalism empowers us to build correct, efficient systems
 
+*"All models are wrong, some are useful."* — George. P. Box
+
 ---
 
 ## Phase 1: Mathematical Foundations (Sessions 1–5)
