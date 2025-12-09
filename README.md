@@ -154,14 +154,14 @@ Understanding this history reveals that:
 
 ## 📔 Table of Contents
 
-| Session | Folder                              | Topic                             | Key Concepts                                         | Python Connection                       |
-| ------- | ----------------------------------- | --------------------------------- | ---------------------------------------------------- | --------------------------------------- |
-| 0       | `00-mathematical-foundations/`      | **History & Philosophy**          | Math origins, Gödel, Turing, complexity theory       | Foundational context                    |
-| 1       | `01-sets-boolean-logic/`            | **Sets & Boolean Logic**          | Membership, subsets, union, intersection, power sets | `set`, `frozenset`, list comprehensions |
-| 2       | `02-relations-functions/`           | **Relations & Functions**         | Propositional/predicate logic, bijections, relations | `and`, `or`, `all()`, `any()`           |
-| 3       | `03-famous-functions-and-counting/` | **Functions & Counting**          | Cardinality, counting principles, logarithms         | Pure functions, `dict`, complexity      |
-| 4       | `04-intro-algorithms/`              | **Algorithms & Proof Techniques** | Induction, modular arithmetic, recursion             | Recursive correctness, binary search    |
-| 5       | `05-basic-data-structures/`         | **Basic Data Structures**         | Arrays, lists, trees, heaps, graph basics            | Lists, dicts, NetworkX                  |
+| Session | Folder                              | Topic                             | Key Concepts                                         | Python Connection                                          |
+| ------- | ----------------------------------- | --------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
+| 0       | `00-mathematical-foundations/`      | **History & Philosophy**          | Math origins, Gödel, Turing, complexity theory       | Foundational context                                       |
+| 1       | `01-sets-boolean-logic/`            | **Sets & Boolean Logic**          | Membership, subsets, union, intersection, power sets | `set()` comprehensions                                     |
+| 2       | `02-relations-functions/`           | **Relations & Functions**         | Propositional/predicate logic, relations, functions  | `not`, `and`, `or`, `all()`, `any()`, `<`, ` =`, `+`, etc. |
+| 3       | `03-famous-functions-and-counting/` | **Basic Combinatorics**           | Cardinality, modulo, counting principles, logarithms | `math`, `itertools`, `%` complexity                        |
+| 4       | `04-intro-algorithms/`              | **Algorithms & Proof Techniques** | Induction, analysis of algorithms                    | Recursive correctness, binary search                       |
+| 5       | `05-basic-data-structures/`         | **Basic Data Structures**         | Arrays, lists, trees, heaps, graph basics            | Lists, dicts, NetworkX                                     |
 
 ---
 
@@ -174,7 +174,7 @@ Building on foundations:
 - **Traversal**: BFS, DFS
 - **Shortest Paths**: Dijkstra, Bellman-Ford, Floyd-Warshall
 - **Minimum Spanning Trees**: Kruskal, Prim
-- **Advanced**: Dynamic programming, Greedy algorithms, Divide-and-Conquer Topological sort, strongly connected components, network flows
+- **Advanced**: Dynamic programming, greedy algorithms, divide-and-conquer, topological sort, strongly connected components, network flows
 
 ---
 
