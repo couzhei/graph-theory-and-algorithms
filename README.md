@@ -157,7 +157,7 @@ Understanding this history reveals that:
 | Session | Folder                              | Topic                             | Key Concepts                                         | Python Connection                                         |
 | ------- | ----------------------------------- | --------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
 | 0       | `00-mathematical-foundations/`      | **History & Philosophy**          | Math origins, Gödel, Turing, complexity theory       | Foundational context                                      |
-| 1       | `01-sets-boolean-logic/`            | **Sets & Boolean Logic**          | Membership, subsets, union, intersection, power sets | `set()` comprehensions                                    |
+| 1       | `01-sets-boolean-logic/`            | **Sets & Boolean Logic**          | Membership, subsets, union, intersection, power sets | `set()` `list` comprehensions, `in`                       |
 | 2       | `02-relations-functions/`           | **Relations & Functions**         | Propositional/predicate logic, relations, functions  | `not`, `and`, `or`, `all()`, `any()`, `<`, `=`, `+`, etc. |
 | 3       | `03-famous-functions-and-counting/` | **Basic Combinatorics**           | Cardinality, modulo, counting principles, logarithms | `math`, `itertools`, `%` complexity                       |
 | 4       | `04-intro-algorithms/`              | **Algorithms & Proof Techniques** | Induction, analysis of algorithms                    | Recursive correctness, binary search                      |
