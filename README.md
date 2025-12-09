@@ -1,6 +1,7 @@
 # Graph Theory and Algorithms
 
 > _"Computers are good at following instructions, but not at reading your mind."_ — Donald Knuth (1938–)
+
 > _"The purpose of computing is insight, not numbers."_ — Richard Hamming (1915-1998)
 
 A terse study path from mathematical foundations to graph algorithms, designed for developers, AI engineers, and budding scientists seeking basic understanding of how mathematics can be utilized in the world of computation. Implementations will be in Python.
@@ -219,4 +220,5 @@ By completion, you will:
 ---
 
 > _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman
+
 > _"Probably the fastest route to perfection is approximation"_ — Unkown
