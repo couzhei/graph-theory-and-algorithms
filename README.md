@@ -45,7 +45,7 @@ style="width:800px; height:400px;" alt="Your GIF">
 
 > "_Eureka! Eureka!_ ("I have found it!")" — Archimedes
 
-#### The Divine Language —
+#### 🔮The Divine Language —
 
 During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and expanded Greek knowledge. Al-Khwarizmi's algebra introduced systematic equation-solving; astronomers developed trigonometry. This work later reached Europe. After medieval age, later scholars like Newton, Kepler, and Galileo saw mathematics as the code God used to write the universe. [Newton's _Principia_ (1687)](https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica) cemented the view: nature is a mathematical machine.
 
@@ -53,7 +53,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
-#### **19th Century Cracks**
+#### 🏭**19th Century Cracks**
 
 [Non-Euclidean](https://en.wikipedia.org/wiki/Non-Euclidean_geometry) geometries shattered the notion of one true geometry (in 1829–1830 the Russian mathematician [Nikolai Ivanovich Lobachevsky](https://en.wikipedia.org/wiki/Nikolai_Lobachevsky) and in 1832 the Hungarian mathematician [János Bolyai](https://en.wikipedia.org/wiki/J%C3%A1nos_Bolyai) separately and independently published treatises on hyperbolic geometry.). Cantor's [set theory](https://en.wikipedia.org/wiki/Naive_set_theory) revealed infinities of different sizes. However, it was not long when some paradoxes emerged.
 
@@ -61,7 +61,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazI0eTRnZGFoeXlldGN5ZW9ydGg0NXhpaGZubGc2MHY4MXJ0aXFrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AFKIk5bY3NFoziS8aV/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
-#### **Foundational Crisis (Early 20th Century)**
+#### 🔥**Foundational Crisis (Early 20th Century)**
 
 [Russell's Paradox](https://en.wikipedia.org/wiki/Russell%27s_paradox)(and a few others) broke naive set theory. Three schools arose:
 
@@ -74,7 +74,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > "_In mathematics, just as in the arts, it is dangerous to depart from the 'Schaffe Künstler, rede nicht' [Create, artist, do not talk]."_ - L.E.J. Brouwer
 
-#### **The Hammer Blows**:
+#### 🔨**The Hammer Blows**:
 
 - **Gödel (1931)**: Any [consistent](https://encyclopediaofmath.org/wiki/Consistency) formal system rich enough for arithmetic is _incomplete_—true statements exist that cannot be proven, and the system cannot prove its own (using only the tools within that system).
 - **Turing (1936)**: Formalized computation( formalized this with the Turing machine, which became the standard model of what we mean by "computation" or "algorithm."); proved the Halting Problem is undecidable(**Decidability** concerns whether there exists an effective algorithm or procedure that can answer yes-or-no questions about a formal system in finite time, for all possible inputs.)
