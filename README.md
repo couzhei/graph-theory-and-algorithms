@@ -76,7 +76,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 #### 🔨**The Hammer Blows**:
 
-- **Gödel (1931)**: Any [consistent](https://encyclopediaofmath.org/wiki/Consistency) formal system rich enough for arithmetic is _incomplete_—true statements exist that cannot be proven, and the system cannot prove its own (using only the tools within that system).
+- **Gödel (1931)**: Any [consistent](https://encyclopediaofmath.org/wiki/Consistency) formal system rich enough for arithmetic is _incomplete_—true statements exist that cannot be proven, and the system cannot prove its own consistency(using only the tools within that system).
 - **Turing (1936)**: Formalized computation( formalized this with the Turing machine, which became the standard model of what we mean by "computation" or "algorithm."); proved the Halting Problem is undecidable(**Decidability** concerns whether there exists an effective algorithm or procedure that can answer yes-or-no questions about a formal system in finite time, for all possible inputs.)
   Both results—Gödel's incompleteness and Turing's undecidability—share the same shape: limitations. They show that no matter what formal system or computing mechanism you construct, there will always be things it cannot do:
 
