@@ -31,14 +31,14 @@ Before diving into algorithms, we ground ourselves in the _why_ behind mathemati
 Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, war machines, towers, pyramids, etc.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHo3emJrcGFqZzd1YXJzY3lubzJudGk4cjR3NzMxazIwanlkcXVjYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Smdls7tzTpqr6/giphy.gif"
-style="width:50%; height:400px;" alt="Your GIF">
+style="width:800px; height:400px;" alt="Your GIF">
 
 #### 🏛️**Greek Abstraction (600–300 BCE)**
 
 The Pythagoreans and Plato transformed mathematics from "how" to "why." The concept of _proof_ was born. Euclid's _Elements_ organized geometry into an axiomatic-deductive system—a model of certainty for two millennia.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3piZjE3dmpmdTAyanduY2RmeTZxNDB3am4xd3ZyenpobjVsbmY5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3pDNbuVwcoIfEB1Uy9/giphy.gif"
-style="width:50%; height:400px;" alt="Your GIF">
+style="width:800px; height:400px;" alt="Your GIF">
 
 > _"Numbers rule the universe. All is number."_ — Pythagoras
 
@@ -50,7 +50,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > _"If by chance I have omitted anything more or less proper or necessary, I beg forgiveness, since there is no one who is without fault..."_ — Leonardo Fibonacci (c. 1170 – c. 1250)
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:50%; height:400px;" alt="Your GIF">
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
 #### **19th Century Cracks**
 
@@ -58,7 +58,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > _"It is by logic that we prove, but by intuition that we invent."_ — Henri Poincaré (1854–1912)
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazI0eTRnZGFoeXlldGN5ZW9ydGg0NXhpaGZubGc2MHY4MXJ0aXFrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AFKIk5bY3NFoziS8aV/giphy.gif" style="width:50%; height:400px;" alt="Your GIF">
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazI0eTRnZGFoeXlldGN5ZW9ydGg0NXhpaGZubGc2MHY4MXJ0aXFrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AFKIk5bY3NFoziS8aV/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
 #### **Foundational Crisis (Early 20th Century)**
 
@@ -67,7 +67,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 - **Logicism** (Frege, Russell): Mathematics is reducible to logic; It was aimed to reduce mathematics to pure logic, but Russell's Paradox created an immediate problem for Frege's system. Russell responded by developing his theory of types within a logicist framework, eventually publishing Principia Mathematica (1910-1913) with Whitehead as an attempt to salvage logicism by reformulating the logical foundations.
 - **Formalism** (Hilbert): It emerged from Hilbert's axiomatization of geometry and his response to the paradoxes. Rather than trying to reduce mathematics to logic, Hilbert proposed that mathematics could be understood as meaningless symbol manipulation, with the critical goal being to prove the consistency of axiomatic systems. He introduced the concept of "ideals"—claims about infinity that are useful in mathematics but not strictly meaningful—as a way to preserve classical mathematics while maintaining finitary foundations.
 - **Intuitionism** (Brouwer): developed explicitly as a challenge to formalism and set-theoretic mathematics. Founded by L.E.J. Brouwer in the early 1910s-1920s, intuitionism rejected the law of excluded middle and demanded that mathematical objects be constructible through human mental activity. This school was so opposed to classical mathematics that it rejected much of existing analysis and infinite set theory.
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJlOW1wZDVwdndyY3FqZnp0eTBtM2FlaWZzZ2JqaXE2ZGhpNXI0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FMOkePaDkcVeko3QaL/giphy.gif" style="width:50%; height:400px;" alt="Your GIF">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJlOW1wZDVwdndyY3FqZnp0eTBtM2FlaWZzZ2JqaXE2ZGhpNXI0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FMOkePaDkcVeko3QaL/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
 > _"Everything is a process, and the universe is a grand process."_ - Alfred North Whitehead
 
@@ -136,7 +136,7 @@ This represents a profound philosophical shift: from seeking the Truth to seekin
 
 > _"Computer science is no more about computers than astronomy is about telescopes."_ — Edsger Dijkstra (1930–2002)
 
-![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2t4OWVoN3c1bnVxdXdzMjk0NGFxYmV3dXZzejZjZDF1dG5udzRrdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tXlpbXfu7e2Pu/giphy.gif)
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2t4OWVoN3c1bnVxdXdzMjk0NGFxYmV3dXZzejZjZDF1dG5udzRrdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tXlpbXfu7e2Pu/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
 
 ### 💡 Why This Matters
 
