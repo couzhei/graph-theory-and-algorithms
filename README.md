@@ -108,7 +108,7 @@ This shifted focus from computability to computational complexity.
 
 #### Defining Tractability: The Classes P and NP:
 
-- **P (Polynomial Time):** Problems considered "tractable" or "efficiently solvable" on a computer. Their solution time scales "reasonably" (like $n^2, n^3$) with input size. Example: Sorting a list.
+- **P (Polynomial Time):** Problems considered "tractable" or "efficiently solvable" on a computer. Their solution time scales "reasonably" (like n², n³) with input size. Example: Sorting a list.
 
 - **NP (Nondeterministic Polynomial Time):** Problems where a proposed solution can be checked quickly, but finding that solution from scratch might be astronomically hard. Example: The "Traveling Salesperson" problem—checking a route is easy, finding the shortest one seems impossibly hard for large numbers of cities.
 
@@ -122,7 +122,7 @@ NP-Hard problems are at least as hard as the hardest NP problems; they may not e
 
 **Practical Impact:** It provides a classification tool. When you encounter a new, seemingly hard problem, you try to prove it's NP-Complete. If you succeed, you immediately know:
 
-Don't waste time looking for a perfect, fast solution for all cases (unless you're going to prove P$=$NP or P$\neq$NP and win a million dollars).
+Don't waste time looking for a perfect, fast solution for all cases (unless you're going to prove P=NP or P≠NP and win a million dollars).
 
 You must pivot to alternative strategies: Approximation, Heuristics, or Special Cases.
 
