@@ -223,4 +223,4 @@ By completion, you will:
 
 > _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman
 
-> _"Probably the fastest route to perfection is approximation"_ — Unkown
+> _"Probably the fastest route to perfection is approximation"_ — Unknown
