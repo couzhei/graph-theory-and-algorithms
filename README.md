@@ -191,8 +191,8 @@ union = a | b                  # {1, 2, 3, 4, 5}
 intersection = a & b           # {3}
 
 # Predicate logic
-all_positive = all(x > 0 for x in [1, 2, 3])       # ∀x, x > 0
-exists_even = any(x % 2 == 0 for x in [1, 2, 3])  # ∃x, x mod 2 = 0
+all_positive = all(x > 0 for x in a)       # ∀x, x > 0
+exists_even = any(x % 2 == 0 for x in {1, 2, 3})  # ∃x, x mod 2 = 0
 ```
 
 ---
@@ -202,7 +202,7 @@ exists_even = any(x % 2 == 0 for x in [1, 2, 3])  # ∃x, x mod 2 = 0
 - 🎓**MIT 6.006 2020** — For learning materials visit [here](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/).
 - 📐**CS70 at UC Berkeley, Fall 2025** — For mathematical background [this](https://www.eecs70.org/) place seems most appropriate.
 - 📖**CLRS** — _Introduction to Algorithms_, by Thomas H. Cormen, et al. ,fourth edition (reference)
-- 🔗**NetworkX** — Graph theory [library](https://networkx.org/en/) for Python
+- 🔗**NetworkX** — Graph [library](https://networkx.org/en/) for Python
 
 ## ✅ Prerequisites
 
