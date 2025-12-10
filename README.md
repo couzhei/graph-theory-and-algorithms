@@ -57,11 +57,11 @@ Before diving into algorithms, we ground ourselves in the _why_ behind mathemati
 
 #### 🧱**Practical Origins**
 
-Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, [catapults]([url](https://www.sciencedaily.com/releases/2007/10/071002144301.htm)), towers, pyramids, etc.
+Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, [catapults](https://www.sciencedaily.com/releases/2007/10/071002144301.htm), towers, pyramids, etc.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHo3emJrcGFqZzd1YXJzY3lubzJudGk4cjR3NzMxazIwanlkcXVjYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Smdls7tzTpqr6/giphy.gif"
 style="width:800px; height:400px;" alt="Your GIF" >
-https://www.sciencedaily.com/releases/2007/10/071002144301.htm
+
 #### 🏛️**Greek Abstraction (600–300 BCE)**
 
 The Pythagoreans and Plato transformed mathematics from "how" to "why." The concept of _proof_ was born. Euclid's _Elements_ organized geometry into an axiomatic-deductive system—a model of certainty for two millennia.
