@@ -1,5 +1,34 @@
 # Graph Theory and Algorithms
 
+---
+## 🎯 Goals
+
+By completion, you will:
+
+- Read and write the mathematical language of algorithms
+- Analyze time and space complexity
+- Implement (graph) algorithms confidently
+- Recognize NP-complete problems and possibly know when to approximate
+- Understand the historical arc from ancient mathematics to modern computation
+
+## ✅ Prerequisites
+
+- 🐍Python 3.14+ installed
+- 🧠Curiosity
+
+## 📚 Materials
+
+- 🎓**MIT 6.006 2020** — For learning materials visit [here](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/).
+- 📐**CS70 at UC Berkeley, Fall 2025** — For mathematical background [this](https://www.eecs70.org/) place seems most appropriate.
+- 📖**CLRS** — _Introduction to Algorithms_, by Thomas H. Cormen, et al. ,fourth edition (reference)
+- 🔗**NetworkX** — Graph [library](https://networkx.org/en/) for Python
+
+
+
+
+---
+
+
 > _"Computers are good at following instructions, but not at reading your mind."_ — Donald Knuth (1938–)
 
 > _"The purpose of computing is insight, not numbers."_ — Richard Hamming (1915-1998)
@@ -195,31 +224,6 @@ all_positive = all(x > 0 for x in a)       # ∀x, x > 0
 exists_even = any(x % 2 == 0 for x in {1, 2, 3})  # ∃x, x mod 2 = 0
 ```
 
----
-
-## 📚 Materials
-
-- 🎓**MIT 6.006 2020** — For learning materials visit [here](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/).
-- 📐**CS70 at UC Berkeley, Fall 2025** — For mathematical background [this](https://www.eecs70.org/) place seems most appropriate.
-- 📖**CLRS** — _Introduction to Algorithms_, by Thomas H. Cormen, et al. ,fourth edition (reference)
-- 🔗**NetworkX** — Graph [library](https://networkx.org/en/) for Python
-
-## ✅ Prerequisites
-
-- 🐍Python 3.13+ installed
-- 🧠Curiosity
-
-## 🎯 Goals
-
-By completion, you will:
-
-- Read and write the mathematical language of algorithms
-- Analyze time and space complexity
-- Implement (graph) algorithms confidently
-- Recognize NP-complete problems and possibly know when to approximate
-- Understand the historical arc from ancient mathematics to modern computation
-
----
 
 > _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman
 
