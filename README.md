@@ -69,9 +69,9 @@ The Pythagoreans and Plato transformed mathematics from "how" to "why." The conc
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3piZjE3dmpmdTAyanduY2RmeTZxNDB3am4xd3ZyenpobjVsbmY5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3pDNbuVwcoIfEB1Uy9/giphy.gif"
 style="width:800px; height:400px;" alt="Your GIF">
 
-> _"Numbers rule the universe. All is number."_ — Pythagoras
+> _"Numbers rule the universe. All is number."_ — Pythagoras (570-495 BC)
 
-> "_Eureka! Eureka!_ ("I have found it!")" — Archimedes
+> "_Eureka! Eureka!_ ("I have found it!")" — Archimedes (287-212 BC)
 
 #### 🔮The Divine Language —
 
@@ -99,9 +99,9 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 <img src="./assets/Hide And Seek Magic GIF by Barbara Pozzi.gif" style="width:800px; height:600px;" alt="The bull">
 
-> _"Everything is a process, and the universe is a grand process."_ - Alfred North Whitehead
+> _"Everything is a process, and the universe is a grand process."_ - Alfred North Whitehead (1861-1947)
 
-> "_In mathematics, just as in the arts, it is dangerous to depart from the 'Schaffe Künstler, rede nicht' [Create, artist, do not talk]."_ - L.E.J. Brouwer
+> "_In mathematics, just as in the arts, it is dangerous to depart from the 'Schaffe Künstler, rede nicht' [Create, artist, do not talk]."_ - L.E.J. Brouwer (1881-1966)
 
 #### 🔨**The Hammer Blows**:
 
@@ -111,11 +111,11 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 Gödel: Even consistent systems have true statements they cannot prove​
 
-> _"Short wave challenge: we are standing at the gate. The gate is about to open. Freedom and glory."_ — Kurt Gödel
+> _"Short wave challenge: we are standing at the gate. The gate is about to open. Freedom and glory."_ — Kurt Gödel (1906-1978)
 
 Turing: Even with the most general computing model, some problems (like the Halting Problem) are fundamentally unsolvable
 
-> _"Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity."_ — Alan Turing
+> _"Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity."_ — Alan Turing (1912-1954)
 
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGQ3Z2U4ZG8wMHdqNmlpeXd3bXdmOXo0N2RzZjVmM3BhdTlmajk4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y8QlI96MfYl2w/giphy.gif)
 
@@ -224,6 +224,6 @@ exists_even = any(x % 2 == 0 for x in {1, 2, 3})  # ∃x, x mod 2 = 0
 ```
 
 
-> _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman
+> _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman (1949-)
 
 > _"Probably the fastest route to perfection is approximation"_ — Unknown
