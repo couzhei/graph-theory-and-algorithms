@@ -57,11 +57,11 @@ Before diving into algorithms, we ground ourselves in the _why_ behind mathemati
 
 #### 🧱**Practical Origins**
 
-Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, war machines, towers, pyramids, etc.
+Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, [catapults]([url](https://www.sciencedaily.com/releases/2007/10/071002144301.htm)), towers, pyramids, etc.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHo3emJrcGFqZzd1YXJzY3lubzJudGk4cjR3NzMxazIwanlkcXVjYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Smdls7tzTpqr6/giphy.gif"
-style="width:800px; height:400px;" alt="Your GIF">
-
+style="width:800px; height:400px;" alt="Your GIF" >
+https://www.sciencedaily.com/releases/2007/10/071002144301.htm
 #### 🏛️**Greek Abstraction (600–300 BCE)**
 
 The Pythagoreans and Plato transformed mathematics from "how" to "why." The concept of _proof_ was born. Euclid's _Elements_ organized geometry into an axiomatic-deductive system—a model of certainty for two millennia.
@@ -111,7 +111,8 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 Gödel: Even consistent systems have true statements they cannot prove​
 
-> _"Short wave challenge: we are standing at the gate. The gate is about to open. Freedom and glory."_ — Kurt Gödel (1906-1978)
+
+> _"A large part of mathematics which becomes useful developed with absolutely no desire to be useful."_ — John von Neumann (1903-1957)
 
 Turing: Even with the most general computing model, some problems (like the Halting Problem) are fundamentally unsolvable
 
@@ -127,7 +128,7 @@ Despite all these crises, some mathematicians took advantages from all of these 
 - **Boolean Logic to Physical Gates**: Boole's algebra (1850s) and Shannon's insight (1937) formed the foundation of digital circuit design - `AND`, `OR`, and `NOT` - became physical logic gates.
 - **Stored-Program Architecture**: Treating instructions (the program) as the same kind of data as numbers, stored in memory; This is the architecture of every modern computer. It turned a fixed calculator into a universal problem-solving machine.
 
-> _"A large part of mathematics which becomes useful developed with absolutely no desire to be useful."_ — John von Neumann
+> _"Short wave challenge: we are standing at the gate. The gate is about to open. Freedom and glory."_ — Kurt Gödel (1906-1978)
 
 ### ⚡ From Computability to Complexity (1960s-Present) – Beyond "Can it be computed?"
 
