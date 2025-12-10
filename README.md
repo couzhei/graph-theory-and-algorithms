@@ -69,10 +69,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 - **Formalism** (Hilbert): It emerged from Hilbert's axiomatization of geometry and his response to the paradoxes. Rather than trying to reduce mathematics to logic, Hilbert proposed that mathematics could be understood as meaningless symbol manipulation, with the critical goal being to prove the consistency of axiomatic systems. He introduced the concept of "ideals"—claims about infinity that are useful in mathematics but not strictly meaningful—as a way to preserve classical mathematics while maintaining finitary foundations.
 - **Intuitionism** (Brouwer): developed explicitly as a challenge to formalism and set-theoretic mathematics. Founded by L.E.J. Brouwer in the early 1910s-1920s, intuitionism rejected the law of excluded middle and demanded that mathematical objects be constructible through human mental activity. This school was so opposed to classical mathematics that it rejected much of existing analysis and infinite set theory.
 
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJlOW1wZDVwdndyY3FqZnp0eTBtM2FlaWZzZ2JqaXE2ZGhpNXI0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FMOkePaDkcVeko3QaL/giphy.gif"
-style="width:800px; height:400px;" alt="Your GIF">
-
-<!-- ![]() -->
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDJlOW1wZDVwdndyY3FqZnp0eTBtM2FlaWZzZ2JqaXE2ZGhpNXI0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FMOkePaDkcVeko3QaL/giphy.gif)
 
 > _"Everything is a process, and the universe is a grand process."_ - Alfred North Whitehead
 
