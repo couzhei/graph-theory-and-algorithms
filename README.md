@@ -17,7 +17,7 @@ By completion, you will:
 ## ✅ Prerequisites
 
 - 🐍Python 3.14+ installed
-- 🧠Curiosity
+- 🪤Curiosity
 
 ## 📚 Materials
 
@@ -173,7 +173,7 @@ Understanding this history reveals that:
 3. Complexity theory tells us when to stop searching for perfect solutions
 4. The formalism empowers us to build correct, efficient systems
 
-> "All models are wrong, some are useful." — George. P. Box (1919 –2013)
+> "All models are wrong, but some are useful." — George. P. Box (1919 –2013)
 
 ---
 
