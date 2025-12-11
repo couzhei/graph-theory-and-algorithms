@@ -1,7 +1,9 @@
 # Graph Theory and Algorithms
+
 > _"Computers are good at following instructions, but not at reading your mind."_ — Donald Knuth (1938–)
 
 > _"The purpose of computing is insight, not numbers."_ — Richard Hamming (1915-1998)
+
 ## 🎯 Goals
 
 By completion, you will:
@@ -24,13 +26,7 @@ By completion, you will:
 - 📖**CLRS** — _Introduction to Algorithms_, by Thomas H. Cormen, et al. ,fourth edition (reference)
 - 🔗**NetworkX** — Graph [library](https://networkx.org/en/) for Python
 
-
-
-
 ---
-
-
-
 
 A terse study path from mathematical foundations to graph algorithms, designed for developers, AI engineers, and budding scientists seeking basic understanding of how mathematics can be utilized in the world of computation. Implementations will be in Python.
 
@@ -57,17 +53,17 @@ Before diving into algorithms, we ground ourselves in the _why_ behind mathemati
 
 #### 🧱**Practical Origins**
 
-Mathematics began as utility: tally marks for counting (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare. It was craft, not theory. Civil engineering and warfare. Think of walls, cities, roads, [catapults](https://www.sciencedaily.com/releases/2007/10/071002144301.htm), towers, pyramids, etc.
+Mathematics began as utility: counting livestocks (~20,000 BCE), rope-stretching for land surveying in Egypt, empirical rules for construction and warfare: Think of walls, cities, roads, [catapults](https://www.sciencedaily.com/releases/2007/10/071002144301.htm), towers, pyramids, etc.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHo3emJrcGFqZzd1YXJzY3lubzJudGk4cjR3NzMxazIwanlkcXVjYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Smdls7tzTpqr6/giphy.gif"
-style="width:800px; height:400px;" alt="Your GIF" >
+style="width:50 0px; height:300px;" alt="Your GIF" >
 
 #### 🏛️**Greek Abstraction (600–300 BCE)**
 
 The Pythagoreans and Plato transformed mathematics from "how" to "why." The concept of _proof_ was born. Euclid's _Elements_ organized geometry into an axiomatic-deductive system—a model of certainty for two millennia.
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3piZjE3dmpmdTAyanduY2RmeTZxNDB3am4xd3ZyenpobjVsbmY5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3pDNbuVwcoIfEB1Uy9/giphy.gif"
-style="width:800px; height:400px;" alt="Your GIF">
+style="width:490px; height:350px;" alt="Your GIF">
 
 > _"Numbers rule the universe. All is number."_ — Pythagoras (570-495 BC)
 
@@ -79,7 +75,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > _"If by chance I have omitted anything more or less proper or necessary, I beg forgiveness, since there is no one who is without fault..."_ — Leonardo Fibonacci (c. 1170 – c. 1250)
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:300px; height:200px;" alt="Your GIF">
 
 #### 🏭**19th Century Cracks**
 
@@ -87,7 +83,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > _"It is by logic that we prove, but by intuition that we invent."_ — Henri Poincaré (1854–1912)
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazI0eTRnZGFoeXlldGN5ZW9ydGg0NXhpaGZubGc2MHY4MXJ0aXFrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AFKIk5bY3NFoziS8aV/giphy.gif" style="width:800px; height:400px;" alt="Your GIF">
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExazI0eTRnZGFoeXlldGN5ZW9ydGg0NXhpaGZubGc2MHY4MXJ0aXFrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AFKIk5bY3NFoziS8aV/giphy.gif" style="width:400px; height:240px;" alt="Your GIF">
 
 #### 🔥**Foundational Crisis (Early 20th Century)**
 
@@ -97,7 +93,7 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 - **Formalism** (Hilbert): It emerged from Hilbert's axiomatization of geometry and his response to the paradoxes. Rather than trying to reduce mathematics to logic, Hilbert proposed that mathematics could be understood as meaningless symbol manipulation, with the critical goal being to prove the consistency of axiomatic systems. He introduced the concept of "ideals"—claims about infinity that are useful in mathematics but not strictly meaningful—as a way to preserve classical mathematics while maintaining finitary foundations.
 - **Intuitionism** (Brouwer): developed explicitly as a challenge to formalism and set-theoretic mathematics. Founded by L.E.J. Brouwer in the early 1910s-1920s, intuitionism rejected the law of excluded middle and demanded that mathematical objects be constructible through human mental activity. This school was so opposed to classical mathematics that it rejected much of existing analysis and infinite set theory.
 
-<img src="./assets/Hide And Seek Magic GIF by Barbara Pozzi.gif" style="width:800px; height:600px;" alt="The bull">
+<img src="./assets/Hide And Seek Magic GIF by Barbara Pozzi.gif" style="width:320px; height:280px;" alt="The bull">
 
 > _"Everything is a process, and the universe is a grand process."_ - Alfred North Whitehead (1861-1947)
 
@@ -111,14 +107,13 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 Gödel: Even consistent systems have true statements they cannot prove​
 
-
 > _"A large part of mathematics which becomes useful developed with absolutely no desire to be useful."_ — John von Neumann (1903-1957)
 
 Turing: Even with the most general computing model, some problems (like the Halting Problem) are fundamentally unsolvable
 
 > _"Mathematical reasoning may be regarded rather schematically as the exercise of a combination of two facilities, which we may call intuition and ingenuity."_ — Alan Turing (1912-1954)
 
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGQ3Z2U4ZG8wMHdqNmlpeXd3bXdmOXo0N2RzZjVmM3BhdTlmajk4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y8QlI96MfYl2w/giphy.gif)
+!![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGQ3Z2U4ZG8wMHdqNmlpeXd3bXdmOXo0N2RzZjVmM3BhdTlmajk4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y8QlI96MfYl2w/giphy.gif)
 
 ### 💻 The Computational Turn: Crisis Becomes Creation
 
@@ -223,7 +218,6 @@ intersection = a & b           # {3}
 all_positive = all(x > 0 for x in a)       # ∀x, x > 0
 exists_even = any(x % 2 == 0 for x in {1, 2, 3})  # ∃x, x mod 2 = 0
 ```
-
 
 > _"We build our computer (systems) the way we build our cities: over time, without a plan, on top of ruins."_ — Ellen Ullman (1949-)
 
