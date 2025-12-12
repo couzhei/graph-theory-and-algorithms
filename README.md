@@ -75,7 +75,10 @@ During Europe's Middle Ages, Islamic scholars (8th-14th centuries) preserved and
 
 > _"If by chance I have omitted anything more or less proper or necessary, I beg forgiveness, since there is no one who is without fault..."_ — Leonardo Fibonacci (c. 1170 – c. 1250)
 
+<figure>
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemk0dm51bmtxa3FnaWM2aWs4cGp6M2ZjM3Z4MWc2MHU1OWJ4dW5jNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToMjGpMhkemTU2YQUjC/giphy.gif" style="width:300px; height:200px;" alt="Your GIF">
+<figcaption><a href="">Golden Ratio and Fibonacci Numbers</a></figcaption>
+</figure>
 
 #### 🏭**19th Century Cracks**
 
