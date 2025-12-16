@@ -202,7 +202,7 @@ Building on foundations:
 - **Traversal**: BFS, DFS
 - **Shortest Paths**: Dijkstra, Bellman-Ford, Floyd-Warshall
 - **Minimum Spanning Trees**: Kruskal, Prim
-- **Advanced**: Dynamic programming, divide-and-conquer, *greedy algorithms, topological sort, strongly connected components, network flows*
+- **Advanced**: Dynamic programming, divide-and-conquer, _greedy algorithms, topological sort, strongly connected components, network flows_
 
 ---
 
