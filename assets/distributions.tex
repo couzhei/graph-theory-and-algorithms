@@ -1,0 +1,225 @@
+\documentclass[a4paper]{article}
+
+\usepackage{graphics,amsmath,amsthm,thmtools,amssymb,tikz,mathtools, algorithm, algpseudocode}
+
+\usepackage[landscape, margin=0.3in]{geometry}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}m{#1}}
+
+\begin{document}
+
+\def\arraystretch{1.5}
+
+\begin{table}[h]
+\begin{tabular}{|P{25mm}|P{40mm}|P{45mm}|P{35mm}|P{35mm}|P{35mm}|P{38mm}|}
+\hline
+\multicolumn{7}{|l|}{\textbf{Discrete Distributions}}\\
+\hline
+\textbf{Distribution} & \textbf{Parameters} & \textbf{Possible Description} & \textbf{Range} & $\mathbb{E}[X]$ & $\textsf{Var}(X)$ & \textbf{PMF}\\ \hline
+
+Uniform (disc) &
+$X \sim \text{Unif}(a, b)$ \newline $\text{ for } a, b \in \mathbb{Z}$ \newline $\text{ and } a \leq b$ &
+Equally likely to be any \textit{integer} in $[a,b]$&
+$\{a, \ldots, b\}$&
+$\dfrac{a + b}{2}$&
+$\dfrac{(b-a)(b-a+2)}{12}$&
+$\dfrac{1}{b-a+1}$ 
+\\ \hline
+
+
+
+Bernoulli&
+$X \sim \text{Ber}(p)$ \newline $\text{ for } p \in [0,1]$&
+Takes value 1 with prob $p$ and 0 with prob $1-p$&
+$\{0, 1\}$&
+$p$&
+$p(1 - p)$&
+$p^k\left(1-p\right)^{1-k}$ \newline
+\\ \hline
+
+
+
+Binomial&
+$X \sim \text{Bin}(n, p)$ \newline $\text{ for } n \in \mathbb{N},$ \newline and $p \in [0,1]$&
+Sum of $n$ iid $\text{Ber}(p)$ rvs. \# of heads in $n$ independent coin flips with $P(\text{head})=p$.&
+$\{0, 1, \ldots, n\}$&
+$np$&
+$np(1 - p)$&
+$\binom{n}{k}p^k\left(1-p\right)^{n-k}$ \newline
+\\ \hline
+
+
+
+
+Poisson&
+$X \sim \text{Poi}(\lambda)$ \newline $\text{ for } \lambda > 0$&
+\# of events that occur in \textbf{one} unit of time independently with rate $\lambda$ per unit time&
+$\{0, 1, \ldots\}$&
+$\lambda$&
+$\lambda$&
+$e^{-\lambda}\dfrac{\lambda^k}{k!}$ \newline
+\\ \hline
+
+
+
+
+
+Geometric&
+$X\sim \text{Geo}(p)$ \newline $\text{ for } p\in[0,1]$&
+\# of independent Bernoulli trials with parameter $p$ \textit{up to and \textbf{including} first success}&
+$\{1,2, \ldots\}$&
+$\dfrac{1}{p}$&
+$\dfrac{1-p}{p^2}$&
+$\left(1-p\right)^{k-1}p$ \newline
+\\ \hline
+
+
+
+% Hypergeometric&
+% $X\sim \text{HypGeo}(N,K,n)$ \newline $\text{ for } n,K\le N$ \newline $\text{ and } n,K, N \in \mathbb{N}$&
+% \# of successes in $n$ draws (w/o replacement) from $N$ items that contain $K$ successes in total&
+% $\{\max {(0,n+K-N)},$ \newline $\dots ,\min {(n,K)}\}$&
+% $n\dfrac{K}{N}$&
+% $n\dfrac{K\left(N-K\right)\left(N-n\right)}{N^2(N-1)}$&	$\dfrac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$ \newline
+% \\ \hline
+
+
+
+
+Negative Binomial&
+$X\sim \text{NegBin}(r,p)$ \newline $\text{ for } r\in\mathbb{N},p\in[0,1]$&
+Sum of $r$ iid $\text{Geo}(p)$ rvs. \# of independent flips until $r^{\text{th}}$ head with $P(\text{head})=p$&
+$\{r,r+1, \ldots\}$&
+$\dfrac{r}{p}$&
+$\dfrac{r\left(1-p\right)}{p^2}$&
+$\binom{k-1}{r-1}p^r\left(1-p\right)^{k-r}$ \newline
+\\ \hline
+
+
+
+
+% Multinomial&
+% $\mathbf{X} \sim \text{Mult}_r(n,\mathbf{p})$ \newline $\text{ for } r, n\in\mathbb{N} \text{ and }$ \newline $\mathbf{p} = (p_1,p_2,...,p_r)$, $\sum_{i=1}^{r}{p_i}=1$&
+% Generalization of the Binomial distribution, $n$ trials with $r$ categories each with probability $p_{i}$&
+% $k_{i}\in \{0,\dots ,n\},$ \newline $i\in \{1,\dots ,r\}$ \newline and $\Sigma k_{i}=n$&
+% %$\mathbb{E}[X_{i}] = np_{i}$
+% $\mathbb{E}[\mathbf{X}] = n\mathbf{p} = \begin{bmatrix}
+%                                                 np_1 \\
+%                                                 \vdots \\
+%                                                 np_r
+%                                           \end{bmatrix}$&
+% $\textsf{Var}(X_{i}) = np_{i}(1 - p_{i})$ \newline $\textsf{Cov}(X_{i}, X_{j}) = -np_{i}p_{j}, i \neq j$&
+% $\binom{n}{k_1,...,k_r} \prod_{i=1}^{r}{p_i^{k_i}}$ 
+% \\ \hline
+
+
+
+% Multivariate Hypergeometric&
+% $\mathbf{X} \sim \text{MVHG}_r(N,\mathbf{K},n)$ \newline $\text{ for } r, n\in\mathbb{N},$ \newline $ \mathbf{K} \in \mathbb{N}^{r} \text{ and }$ \newline $N = \sum_{i=1}^{r}K_i$&
+% Generalization of the Hypergeometric distribution, $n$ draws from $r$ categories each with $K_{i}$ successes (w/out replacement)&
+% $k_{i}\in \{0,\dots ,K_{i}\},$ \newline $i\in \{1,\dots ,r\}$ \newline and $\Sigma k_{i}=n$&
+% $\mathbb{E}[\mathbf{X}] = n\dfrac{\mathbf{K}}{N} = \begin{bmatrix}
+%                                                 n\frac{K_1}{N} \\
+%                                                 \vdots \\
+%                                                 n\frac{K_r}{N}
+%                                           \end{bmatrix}$&
+% $\textsf{Var}(X_i)=n\frac{K_i}{N}\cdot \frac{N-K_i}{N}\cdot \frac{N-n}{N-1}$ \newline $\textsf{Cov}(X_i,X_j) = -n\frac{K_i}{N}\frac{K_j}{N}\cdot \frac{N-n}{N-1}, i \neq j$&
+% $\dfrac{\prod_{i=1}^r{\binom{K_i}{k_i}}}{\binom{N}{n}}$ 
+% \\ \hline
+
+\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+\begin{tabular}{|P{20mm}|P{28mm}|P{31mm}|P{23mm}|P{27mm}|P{40mm}|P{45mm}|P{34mm}|}
+\hline
+\multicolumn{8}{|l|}{\textbf{Continuous Distributions}}\\
+\hline
+\textbf{Distribution} & \textbf{Parameters} & \textbf{Possible Description} & \textbf{Range} & $\mathbb{E}[X]$ & $\textsf{Var}(X)$ & \textbf{PDF} & \textbf{CDF}\\ \hline
+
+Uniform&
+$X\sim \text{Unif}(a,b)$ \newline $\text{ for } a<b$&
+Equally likely to be any real number in $[a,b]$&
+$[a, b]$&
+$\dfrac{a+b}{2}$&
+$\dfrac{\left(b-a\right)^2}{12}$&
+$\dfrac{1}{b-a}$ \newline &
+$\begin{cases}0 &\text{ if } x<a\\\dfrac{x-a}{b-a} &\text{ if } a\le x<b\\1 &\text{ if } x\geq b\end{cases}$
+\\ \hline
+
+
+Exponential&
+$X\sim \text{Exp}(\lambda)$ \newline $\text{ for } \lambda>0$&
+Time until first event in Poisson process&
+$[0, \infty)$&
+$\dfrac{1}{\lambda}$&
+$\dfrac{1}{\lambda^2}$&
+$\lambda e^{-\lambda x}$ &
+$\begin{cases}0 & \text{ if } x<0\\1-e^{-\lambda x} & \text{ if } x\ge0\end{cases}$
+\\\hline
+
+
+
+Normal&
+$X\sim\mathcal{N}(\mu,\sigma^{2})$ \newline $\text{ for } \mu\in\mathbb{R},$ \newline and $\sigma^2>0$&
+Standard bell curve&
+$(-\infty, \infty)$&
+$\mu$&
+$\sigma^2$&
+$\dfrac{1}{\sigma\sqrt{2\pi}}\exp\left(-\dfrac{\left(x-\mu\right)^2}{2\sigma^2}\right)$ &
+$\Phi\left(\dfrac{x-\mu}{\sigma}\right)$
+\\ \hline
+
+
+
+% Gamma&
+% $X\sim \text{Gam}(r,\lambda)$ \newline $\text { for } r,\lambda>0$&
+% Sum of $r$ iid $\text{Exp}(\lambda)$ rvs. Time to $r^{\text{th}}$ event in Poisson process. Conjugate prior for Exp, Poi parameter $\lambda$ &
+% $[0, \infty)$&
+% $\dfrac{r}{\lambda}$&
+% $\dfrac{r}{\lambda^2}$&
+% $\dfrac{\lambda^r}{\Gamma(r)}x^{r-1}e^{-\lambda x}$&
+% Note: $\Gamma(r)=(r-1)!$ for integers $r$.
+% \\ \hline
+
+
+
+Beta&
+$X\sim \text{Beta}(\alpha,\beta)$ \newline $\text{ for } \alpha,\beta>0$&
+Conjugate prior for Ber, Bin, Geo, NegBin parameter $p$&
+$(0, 1)$&
+$\dfrac{\alpha}{\alpha+\beta}$&
+$\dfrac{\alpha\beta}{\left(\alpha+\beta\right)^2(\alpha+\beta+1)}$&
+$\dfrac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}\left(1-x\right)^{\beta-1}$&
+\\ \hline
+
+
+% Dirichlet&
+% $\mathbf{X} \sim \text{Dir}(\alpha_1,\alpha_2, \dots, \alpha_r)$ \newline $\text{ for } \alpha_i, r>0$ and \newline $r \in \mathbb{N}, \alpha_i \in \mathbb{R}$&
+% Generalization of Beta distribution. Conjugate prior for Multinomial parameter $\mathbf{p}$&
+% $x_{i} \in (0, 1);$\newline$ \sum_{i=1}^{r}x_{i} = 1$&
+% $\mathbb{E}[X_{i}] = \dfrac{\alpha_{i}}{\sum_{j=1}^{r}\alpha_{j}}$&
+% &%$Var(X_{i})={\frac {{\tilde{\alpha}}_{i}(1-{\tilde{\alpha}}_{i})}{\alpha _{0}+1}},$\newline $Cov(X_{i},X_{j})={\frac {-\alpha _{i}\alpha _{j}}{\alpha _{0}^{2}(\alpha _{0}+1)}}$, \newline $(i\neq j)$ \newline ${{\tilde {\alpha }}_{i}={\frac {\alpha _{i}}{\alpha _{0}}}}$, ${\alpha _{0}=\sum _{i=1}^{K}\alpha _{i}}$&
+% $\frac{1}{B(\alpha)}\prod_{i=1}^{r}x_i^{a_i-1},$ \newline $x_i \in (0,1), \sum_{i=1}^{r}x_i = 1$&
+% \\ \hline
+
+
+Multivariate Normal&
+$\mathbf{X} \sim \mathcal{N}_n(\boldsymbol{\mu},\boldsymbol{\Sigma})$ \newline $\text{ for } \boldsymbol{\mu} \in \mathbb{R}^n$ and \newline $\boldsymbol{\Sigma} \in \mathbb{R}^{n\times n}$&
+Generalization of Normal distribution&
+$\mathbb{R}^{n}$&
+$\boldsymbol{\mu}$&
+$\boldsymbol{\Sigma}$&
+$\frac{1}{(2\pi)^{n/2} |\Sigma|^{1/2}} \cdot $\newline $\exp({-\frac{1}{2}(\boldsymbol{x} - \boldsymbol{\mu})^T \Sigma^{-1}(\boldsymbol{x} - \boldsymbol{\mu})})$&
+\\ \hline
+
+\end{tabular}
+
+\begin{small}
+written by Alex Tsun
+\end{small}
+
+\end{table}
+
+\end{document}
