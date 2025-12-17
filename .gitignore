@@ -4,3 +4,9 @@
 # Ignore virtual environment folders
 venv/
 .venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+**/__pycache__/
+.vscode/*
